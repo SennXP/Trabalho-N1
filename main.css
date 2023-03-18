@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+.logo {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.logo img {
+	height: 200px;
+	margin-right: 10px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	height: 200%;
+	padding: 10px;
+	font-size: 25px;
+
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav li:first-child {
+	margin-left: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding: 20px;
+}
+
+.movies {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.movie {
+	flex: 0 0 calc(25% - 20px);
+	margin-right: 20px;
+	margin-bottom: 20px;
+	transition: .3s ease;
+	overflow: hidden;
+}
+
+.movie:hover {
+	transform: scale(1.05);
+	border-radius: 24px;
+}
+
+.movie:last-child {
+	margin-right: 0;
+}
+
+.movie img {
+	width: 100%;
+}
+
+.movie h3 {
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
